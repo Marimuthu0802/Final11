@@ -1,0 +1,106 @@
+/* Background Gradient - Black to Green */
+.under-construction-container {
+    background: linear-gradient(135deg, #000000, #00EE51);
+    color: white;
+  }
+  
+  /* Green Icons */
+  .text-green {
+    color: #00EE51 !important;
+  }
+  
+  /* Icons Styling */
+  .construction-icons svg {
+    margin: 0 10px;
+  }
+  
+  /* Animations */
+  .rotating-icon {
+    animation: rotate 3s linear infinite;
+  }
+  
+  .bouncing-icon {
+    animation: bounce 1.5s ease-in-out infinite alternate;
+  }
+  
+  .floating-icon {
+    animation: float 2s ease-in-out infinite;
+  }
+  
+  .swinging-icon {
+    animation: swing 2s ease-in-out infinite alternate;
+  }
+  
+  /* Button Hover Effect */
+  .hover-grow:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Green Button */
+  .btn-green {
+    background-color: #00EE51 !important;
+    border: none;
+    color: black !important;
+  }
+  
+  .btn-green:hover {
+    background-color: #00C040 !important;
+    color: white !important;
+  }
+  
+  /* Progress Bar
+  .progress {
+    width: 80%;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #00EE51;
+    transition: width 1s ease-in-out;
+  } */
+  
+  /* Keyframe Animations */
+  @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  @keyframes bounce {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10px); }
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  @keyframes swing {
+    from { transform: rotate(-10deg); }
+    to { transform: rotate(10deg); }
+  }
+  
+  /* Custom Alert */
+.custom-alert {
+  background: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 255, 0, 0.8);
+}
+
+.custom-alert h2 {
+  color: #32cd32;
+}
+
+.custom-alert p {
+  margin-bottom: 15px;
+}
+

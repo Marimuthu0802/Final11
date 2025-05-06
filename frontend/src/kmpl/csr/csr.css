@@ -1,0 +1,22 @@
+/* Custom Green Button */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* If you want to create a custom green class */
+  .btn-custom-green {
+    background-color: #2e8b57; /* Sea green */
+    border-color: #2e8b57;
+    color: white;
+  }
+  
+  .btn-custom-green:hover {
+    background-color: #26734a;
+    border-color: #26734a;
+  }

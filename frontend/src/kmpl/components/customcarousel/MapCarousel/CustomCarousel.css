@@ -1,0 +1,22 @@
+.custom-carousel .carousel-img {
+    height: 500px; /* Adjust height */
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .custom-carousel .carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .custom-carousel h3 {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .custom-carousel p {
+    font-size: 16px;
+    color: #ddd;
+  }
+  

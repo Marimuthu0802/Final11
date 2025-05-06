@@ -1,0 +1,28 @@
+  /* Prevent body scrolling */
+body, html {
+  overflow-x: hidden;
+}
+
+/* Allow scrolling only inside the form container */
+.contact-container {
+  max-height: 80vh;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Custom Button Styles */
+.btn-custom-green {
+  background-color: #1e7e34;
+  border-color: #1e7e34;
+  color: white;
+}
+
+.btn-custom-green:hover {
+  background-color: #00d74e;
+  border-color: #00d74e;
+}
+
+/* Navbar hover effect */
+.nav-hover:hover {
+  color: green !important;
+}

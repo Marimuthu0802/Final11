@@ -1,0 +1,41 @@
+.hero-section .container{
+  z-index: 10;
+}
+
+.hero-blur-img{
+  z-index: 0;
+}
+
+.card-hover {
+  border-radius: 15px; /* Ensuring rounded corners */
+  overflow: hidden;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  /* background-color: green !important; */
+  background-image: linear-gradient(to right, #15D789,#10A468);
+  color: white !important;
+  border-radius: 15px;
+}
+
+.card-hover:hover .card-text,
+.card-hover:hover .card-title {
+  color: white !important;
+}
+
+
+.icon-hover {
+    width: 60px !important;
+    height: 60px !important;
+    overflow: hidden;
+}
+
+.card-hover:hover .icon-hover {
+  background-color: white !important;
+  color:green !important;
+  border-radius: 50%;
+}
+.hero-section .h1{
+  text-decoration-color: #D0Ac66;
+}

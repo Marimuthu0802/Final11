@@ -1,0 +1,35 @@
+/* @import "tailwindcss";
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;  */
+
+ @import 'bootstrap/dist/css/bootstrap.min.css'; 
+/* 
+ *{
+  scroll-behavior: smooth;
+ } */
+ 
+
+ .nav-hover {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+  }
+  
+  /* Active tab styling */
+  .active-tab {
+    color: #8b4513 !important; 
+    font-weight: bold;
+    border-bottom: 3px solid #8b4513;
+  }
+
+
+  /* Old */
+@media (-ms-high-contrast: active) {
+  /* styles */
+}
+
+/* New */
+@media (forced-colors: active) {
+  /* styles */
+}
